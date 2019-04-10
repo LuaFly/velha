@@ -75,4 +75,5 @@ function caixa(number) {
 
 function limparcaixa(number) {
     document.getElementById("q" + number).innerHTML = "";
+    
 }
