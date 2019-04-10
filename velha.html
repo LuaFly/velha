@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="velha.css">
+    <script src="velha.js"></script>
+</head>
+
+<body onload="comecar()">
+    <div class="container-fluid">
+        <div id="titulo">
+            <h1> Jogo da Velha </h1>
+        </div>
+        <table id="centro">
+            <section>
+                <td class="item" id="q1" onclick="movimento(this)"></td>
+                <td class="item" id="q2" onclick="movimento(this)"></td>
+                <td class="item" id="q3" onclick="movimento(this)"></td>
+            </section>
+
+            <tr>
+                <td class="item" id="q4" onclick="movimento(this)"></td>
+                <td class="item" id="q5" onclick="movimento(this)"></td>
+                <td class="item" id="q6" onclick="movimento(this)"></td>
+            </tr>
+
+            <tr>
+                <td class="item" id="q7" onclick="movimento(this)"></td>
+                <td class="item" id="q8" onclick="movimento(this)"></td>
+                <td class="item" id="q9" onclick="movimento(this)"></td>
+            </tr>
+            <div id="vez"> É a vez do: </div>
+        </table>
+        <div id="botao">
+            <button><a href="javascript:comecar();" id="restart">Reiniciar </a></button>
+        </div>
+
+
+</body>
+
+</html>
+<!--onclick  id, passar função pro numero e la dentro executa tudo atras dele, acesso ao quadro
+se um ==0, então faz o if do valor--=>

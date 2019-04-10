@@ -1,0 +1,61 @@
+body {
+    background-color:#C6E2FF;
+}
+#titulo{
+    font-size: 200%;
+    color: #607B8B;
+    background-color:#B9D3EE;
+    margin-left: -5%;
+    margin-right: 0%;
+    margin-top:-2.5%;
+    text-align: center;
+}
+#centro{
+    width:30vw;
+    margin: auto;
+
+    }
+    .item{
+    height:10vw;
+    width:10vw;
+    color:#0000CD;
+    -webkit-box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.24);
+    background:#B9D3EE;
+    margin: 5px;
+    text-align: center;
+    
+    }
+#jogador{
+    font-size: 150%;
+    font-family:  "Goudy Bookletter 1911", sans-serif;
+    text-align: center;
+}
+#vez{
+    text-align: center;
+    font-family:  "Goudy Bookletter 1911", sans-serif;
+    font-size: 100%;
+
+}
+#vez img{
+    height: 5%;
+    width: 5%;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+
+#botao{
+    text-align: center;
+}
+button:hover{
+    border: 20px;
+    text-align: center;
+    background-color: #B9D3EE;
+    text-emphasis-color: blue;
+    color: blue;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
